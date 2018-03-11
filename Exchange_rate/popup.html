@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div>
+    <span>人民币(CNY)</span>
+    <span id="cny">--</span>
+  </div>
+  <div>
+    <span>美金(USD)</span>
+    <span id="usd">--</span>
+  </div>
+  <div>
+    <span>港币(HKD)</span>
+    <span id="hkd">--</span>
+  </div>
+  <div>
+    <span>英镑(GBP)</span>
+    <span id="gbp">--</span>
+  </div>
+  <div>
+    <span>日元(JPY)</span>
+    <span id="jpy">--</span>
+  </div>
+  <div>
+    <span>欧元(EUR)</span>
+    <span id="eur">--</span>
+  </div>
+
+  <div>
+    <span>数额</span>
+    <input type="text" value="100" id="mount">
+  </div>
+  <div>
+    <span>汇率</span>
+    <select id="box1">
+      <option value="cny">人民币(CNY)</option>
+      <option value="usd">美金(USD)</option>
+      <option value="hkd">港币(HKD)</option>
+      <option value="gbp">英镑(GBP)</option>
+      <option value="jpy">日元(JPY)</option>
+      <option value="eur">欧元(EUR)</option>
+    </select>
+  </div>
+  <div>
+    <span>
+      <input type="button" value="汇率转换" id="change" />
+    </span>
+    <span>计算结果</span>
+    <span id="result">--</span>
+
+  </div>
+
+</body>
+
+</html>
