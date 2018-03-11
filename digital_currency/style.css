@@ -1,0 +1,29 @@
+body {
+  overflow: hidden;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 180%;
+  text-align: center;
+}
+tr:nth-of-type(odd) {
+  background: #8a9fb8;
+  color: #fff;
+  font-weight: bold;
+}
+tr:nth-of-type(even) {
+  background: #f5fafa;
+}
+tr:hover {
+  background: #a1afaf;
+}
+table {
+  width: 400px;
+  border: 0;
+}
+td {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+caption {
+  font-size: 18px;
+}

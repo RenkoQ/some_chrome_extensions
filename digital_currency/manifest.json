@@ -1,0 +1,14 @@
+{
+    "name": "Currency query",
+    "description": "实时虚拟数字货币价值查询",
+    "version": "1.0",
+    "permissions": [
+        "tabs", "*://*/*"
+    ],
+    "browser_action": {
+        "default_title": "Currency",
+        "default_icon": "Bitcoin_Logo.png",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+}
