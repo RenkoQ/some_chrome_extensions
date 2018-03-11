@@ -14,6 +14,8 @@
 
 ![./exampleimg/btc1.png](./exampleimg/btc1.png)
 
+![./exampleimg/btc2.png](./exampleimg/btc2.png)
+
 ### baidu_cannot_touch
 
 根据[《Chrome扩展及应用开发（首发版）》][1]中的"永远点不到谷歌按钮"改写的恶作剧扩展，让“百度一下”的按钮偏移你的鼠标。
